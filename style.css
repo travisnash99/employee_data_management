@@ -12,9 +12,16 @@
 	border-style:;
 }
 
-.add_data{
+.add-data{
 	display:block;
 	border-width:2px;
 	border-color:grey;
 	border-style:;
+}
+
+
+
+
+footer{
+	position:fixed;
 }
