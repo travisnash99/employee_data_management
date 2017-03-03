@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .jumbotron{
 	width:auto;
 	text-align:center;
@@ -17,4 +18,8 @@
 	border-width:2px;
 	border-color:grey;
 	border-style:;
+=======
+.add-data {
+	display: block;
+>>>>>>> 1870e043371bc59dbbbb59b64ef28d01d148bec9
 }
