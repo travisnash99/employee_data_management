@@ -37,13 +37,16 @@
 
   	<div class="panel" id="current-employees"></div>
  	<div class="panel-body">
- 	<header class="panel-heading">Current Employees</header>
  	<div class="panel-heading"> Current Employees </div>
  	<div class="panel-body">
  	
   		<table class='table' id="current-employee-data">
   			<th>Name</th>
   			<th>Role</th>
+        <th>Start Date</th>
+        <th>Months Worked</th>
+        <th>Monthly Rate</th>
+        <th>Total Billed</th>
   
   		</table>
   	</div>
@@ -54,10 +57,12 @@
  	<div class="panel-heading">Add Employee</div>
 
   	<div class="panel-body">
- 	<header class="panel-heading">Add Employee</header>
   	<form>
-  		Name: <input id="add-name" class="add_data" type="text" name="Name">
-  		Role: <input id="add-role" class="add_data" type="text" name="Role">
+  		Name: <input id="add-name" class="add-data" type="text" name="Name">
+  		Role: <input id="add-role" class="add-data" type="text" name="Role">
+      Start Date: 
+    <input id="add-start-date" class="add-data" class="form-control" type='text' name="Start Date"  />
+    Monthly Rate: <input id="add-monthly-rate" class="add-data" type="text" name="Monthly Rate">
    		<input id="submit-button" type="submit" name="Submit" value="Submit">
   	</form>
   	</div>
