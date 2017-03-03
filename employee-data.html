@@ -33,9 +33,10 @@
 		</div>
 	</div>
 
-	<div class="row" id="current-employees">
-	<header>Current Employees</header>
-		<tr id="current-employee-data">
+	<div class="panel" id="current-employees"></div>
+	<div class="panel-body"
+	<header class="panel-heading">Current Employees</header>
+		<table class='table' id="current-employee-data">
 			<th>Name</th>
 			<th>Role</th>
 			<th>Start Date</th>
@@ -43,10 +44,12 @@
 			<th>Monthly Rate</th>
 			<th>Total Billed</th>
 
-		</tr>
+		</table>
 	</div>
-	<div class="row" id="add-employees">
-	<header>Add Employee</header>
+	<div class="panel" id="add-employees">
+	</div>
+	<div class="panel-body">
+	<header class="panel-heading">Add Employee</header>
 	<form>
 		Name: <input id="add-name" class="add_data" type="text" name="Name">
 		Role: <input id="add-role" class="add_data" type="text" name="Role">
