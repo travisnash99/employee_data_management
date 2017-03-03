@@ -26,23 +26,42 @@
 
 <div id="container">
 	<div class = "jumbotron">
-		<div class="row" id="title">
+		<div class="title">
 			<h1>Employee Data Management</h1>
 		</div>
-		<div class="row" id="subtitle">
+		<div class="subtitle">
 			<h3>A Comprehensive Directory of Employee Billable Hours</h3>
 		</div>
 	</div>
 
-	<div class="row" id="current-employees">
-	</div>
-	<div class="row" id="add-employees">
-	</div>
-<footer>
-	<h3>Created by Monica, Carlos, Paden, and Travis 2017</h3>
-</footer>	
-</div>
 
-</body>
+  	<div class="panel" id="current-employees"></div>
+ 	<div class="panel-body">
+ 	<header class="panel-heading">Current Employees</header>
+ 	<div class="panel-heading"> Current Employees </div>
+ 	<div class="panel-body">
+ 	
+  		<table class='table' id="current-employee-data">
+  			<th>Name</th>
+  			<th>Role</th>
+  
+  		</table>
+  	</div>
+  	<div class="panel" id="add-employees">
+ </div>
+ 	
+ 	
+ 	<div class="panel-heading">Add Employee</div>
 
-</html>
+  	<div class="panel-body">
+ 	<header class="panel-heading">Add Employee</header>
+  	<form>
+  		Name: <input id="add-name" class="add_data" type="text" name="Name">
+  		Role: <input id="add-role" class="add_data" type="text" name="Role">
+   		<input id="submit-button" type="submit" name="Submit" value="Submit">
+  	</form>
+  	</div>
+ 	</div>
+  <footer>
+  	<h4>Created by Monica, Carlos, Paden, and Travis 2017</h4>
+  </footer>	
